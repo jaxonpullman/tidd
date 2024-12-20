@@ -23,7 +23,7 @@ jobs:
     - run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
     - run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "admin@123" -Force)
 
-    - name: Start Playit and Set Up RDP Tunnel
+    - name: www.toolboxlap.com
       env:
         PLAYIT_AUTH_KEY: ${{ secrets.PL }} 
       run: |
